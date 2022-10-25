@@ -11,4 +11,5 @@ window.addEventListener('DOMContentLoaded', () => {
   } catch (error) {
     
   }
+  document.getElementsByClassName("playbar_wrap")[0].style.background = "linear-gradient(red, blue)";
 })
